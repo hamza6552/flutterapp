@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "305330080960",
+    "project_id": "zarbadash-af045",
+    "storage_bucket": "zarbadash-af045.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305330080960:android:35204ecfe551f7d929b125",
+        "android_client_info": {
+          "package_name": "com.zabardash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305330080960-384d1jnnqc345usi6mnugog3jdc6b878.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSGNIL47akFewkhzFbDnC7gHIbFR43dYs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305330080960-384d1jnnqc345usi6mnugog3jdc6b878.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

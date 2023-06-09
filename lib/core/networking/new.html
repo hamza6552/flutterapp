@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="call()">sign up</button>
+    <script>
+        function call(){
+        var myHeaders = new Headers();
+myHeaders.append("Content-Type", "application/json");
+myHeaders.append("accept", "application/json");
+
+var raw = JSON.stringify({
+  "email": "zubair23@gmail.com",
+  "full_name": "test123",
+  "role": "appUswer",
+  "password": "1234567"
+});
+
+var requestOptions = {
+  method: 'POST',
+  headers: myHeaders,
+  body: raw,
+  redirect: 'follow'
+};
+
+fetch("http://127.0.0.1:8000/users/", requestOptions)
+  .then(response => response.text())
+  .then(result => console.log(result))
+  .catch(error => console.log('error', error));
+   }
+      </script>
+</body>
+</html>
